@@ -1,7 +1,9 @@
 from pathlib import Path
 
+
 class SceneFile(object):
     """A Representation of a Scene File"""
+
     def __init__(self, path):
         self.folder_path = Path()
         self.descriptor = 'main'
