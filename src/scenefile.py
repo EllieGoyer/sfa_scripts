@@ -1,4 +1,4 @@
-from pathlib import Path
+from pymel.core.system import Path
 
 
 class SceneFile(object):
@@ -34,3 +34,9 @@ class SceneFile(object):
 
 scene_file = SceneFile("C:/sphere_model_v001.ma")
 print(scene_file.path)
+print(scene_file.folder_path)
+print(scene_file.descriptor)
+print(scene_file.task)
+print(scene_file.ver)
+print(scene_file.ext)
+print(scene_file.filename)
